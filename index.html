@@ -249,7 +249,7 @@
       <div class="column is-full-width">
         <h2 class="title is-3" style="margin-top: -20px">Method</h2>
 
-        <img src="./images/OverviewGSSLAM_mod.png" class="center">
+        <img src="./images/Overview.png" class="center">
         <div class="content has-text-justified">
           <p style="margin-top: 30px">
             <b>Overview of our method.</b> Our tracking strategy with Gaussians representing geometry is shown from (a) to (e), achieving
@@ -275,7 +275,7 @@
         <h2 class="title is-3" style="margin-top: -20px">Video</h2>
 
         <video width="800" poster="" id="Video" autoplay controls muted loop playsinline height="10%">
-          <source src="./videos/VTGaussianSLAM.mp4" type="video/mp4">
+          <source src="./videos/SGAD-SLAM_demo.mp4" type="video/mp4">
         </video>
         <div class="content has-text-justified">
           <p>
@@ -333,7 +333,7 @@
             <div id="example1" class="bal-container-small">
 
               <div class="bal-after">
-                <img src="images/comparisons/our_gs_0885.png">
+                <img src="images/comparisons/gs_0250_ours.png">
                 <div class="bal-afterPosition afterLabel">
                   Ours
                 </div>
@@ -341,7 +341,7 @@
 
               <div class="bal-before">
                 <div class="bal-before-inset">
-                  <img src="images/comparisons/niceslamcolor_00885.png">
+                  <img src="images/comparisons/color_00250_niceslam.png">
                   <div class="bal-beforePosition beforeLabel">
                     NICE-SLAM
                   </div>
@@ -359,7 +359,7 @@
             <div id="example2" class="bal-container-small">
 
               <div class="bal-after">
-                <img src="images/comparisons/ours_scene207_gs_0340.png">
+                <img src="images/comparisons/gs_0250_ours_scannet.png">
                 <div class="bal-afterPosition afterLabel">
                   Ours
                 </div>
@@ -367,9 +367,9 @@
 
               <div class="bal-before">
                 <div class="bal-before-inset">
-                  <img src="images/comparisons/gslam_scene207_00340.png">
+                  <img src="images/comparisons/gs_0250_splatam_scannet.png">
                   <div class="bal-beforePosition beforeLabel">
-                    Gaussian-SLAM
+                    SplaTAM
                   </div>
                 </div>
               </div>
@@ -394,7 +394,7 @@
 
           <div id="example4" class="bal-container-small">
             <div class="bal-after">
-              <img src="images/comparisons/ours_fr3_office_gs_1980.png">
+              <img src="images/comparisons/gs_0020_ours.png">
               <div class="bal-afterPosition afterLabel">
                 Ours
               </div>
@@ -402,9 +402,9 @@
 
             <div class="bal-before">
               <div class="bal-before-inset">
-                <img src="images/comparisons/splatam_fr3_office_gs_1980.png">
+                <img src="images/comparisons/gs_0020_icp.png">
                 <div class="bal-beforePosition beforeLabel">
-                  SplaTAM
+                  GS-ICP SLAM
                 </div>
               </div>
             </div>
@@ -418,7 +418,7 @@
 
           <div id="example5" class="bal-container-small">
             <div class="bal-after">
-              <img src="images/comparisons/ours_b20_0060.png">
+              <img src="images/comparisons/gs_0190_ours_8b.png">
               <div class="bal-afterPosition afterLabel">
                 Ours
               </div>
@@ -426,9 +426,9 @@
 
             <div class="bal-before">
               <div class="bal-before-inset">
-                <img src="images/comparisons/gt_b20_0060.png">
+                <img src="images/comparisons/vtgs_0190_24.25.png">
                 <div class="bal-beforePosition beforeLabel">
-                  Ground Truth
+                  VTGaussian-SLAM
                 </div>
               </div>
             </div>
@@ -465,11 +465,11 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@InProceedings{Hu2025VTGSSLAM,
-                title = {VTGaussian-SLAM: RGBD SLAM for Large Scale Scenes with Splatting View-Tied 3D Gaussians},
+    <pre><code>@InProceedings{Hu2026sgadslam,
+                title = {SGAD-SLAM: Splatting Gaussians at Adjusted Depth for Better Radiance Fields in RGBD SLAM},
                 author = {Hu, Pengchong and Han, Zhizhong},
-                booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
-                year = {2025}
+                booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+                year = {2026}
                 }
 
   </code></pre>
