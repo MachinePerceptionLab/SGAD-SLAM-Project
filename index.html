@@ -22,6 +22,10 @@
 
     gtag('config', 'G-PYVRSFMDRL');
   </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async 
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -44,6 +48,8 @@
 
 </head>
 <body>
+
+
 
 <!-- 
 <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -230,16 +236,6 @@
             (f) Efficient mapping with appearance Gaussians. 
             To improve scalability and rendering quality, we learn appearance Gaussians by progressively refining pixel-wise depth offsets, demonstrating clear improvements in rendering performance across iterations. 
             Gaussian centers are shown for visual clarity.
-            
-            
-            
-            
-            
-            Our tracking strategy with Gaussians representing geometry is shown from (a) to (e), achieving
-          robustness and efficiency. Our mapping learns Gaussians for better rendering, where the offset at each pixel is progressively adjusted for
-          better renderings, improving the scalability and efficiency. We show centers of Gaussians for better readability. We initialize the camera pose using the con-
-stant speed assumption if no explicit illustration is provided. As illustrated in (a) to (c), we estimate the camera pose pi of the i-th frame
-through aligning its depth to the scene in terms of geometric similarity. After tracking the i-th frame, we add some Gaussians from Ti into T with the estimated pose pi and get the updated T ready to track the next frame, as shown in (d).
           </p>
         </div>
 
