@@ -475,7 +475,7 @@
 
 <script src="static/js/script.js"></script>
 
-<script>
+<!-- <script>
   new BeforeAfter({
     id: '#example1'
   });
@@ -489,7 +489,16 @@
     id: '#example5'
   });
 
-</script>
+</script> -->
 
+<script>
+window.addEventListener('load', function() {
+  new BeforeAfter({ id: '#example1' });
+  new BeforeAfter({ id: '#example2' });
+  new BeforeAfter({ id: '#example4' });
+  new BeforeAfter({ id: '#example5' });
+});
+</script>
+  
 </body>
 </html>
